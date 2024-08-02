@@ -22,6 +22,7 @@ html, body {
   min-width: 344px;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -34,6 +35,7 @@ a {
   padding-right: 15px;
   box-sizing: border-box;
 }
+
 
 /* Header */
 
@@ -57,6 +59,7 @@ a {
 .sport-menu {
   display: none;
 }
+
 
 #modal {
   position: absolute;
@@ -348,6 +351,7 @@ hr {
   bottom: 82px;
 }
 
+
 .menu-item > p:nth-child(4) {
   position: absolute;
   left: 30px;
@@ -374,9 +378,8 @@ hr {
 
 .menu-item:hover {
   .menu-gradient {
-    opacity: 0.7;
-  }
-  border: 1px solid transparent;
+  opacity: 0.7;
+  border: 1px solid transparent;}
 }
 
 /* Form */
@@ -559,6 +562,7 @@ hr {
   line-height: 150%;
   color: rgba(43, 53, 65, .5);
 }
+
 
 .link {
   text-decoration: underline;
@@ -847,6 +851,7 @@ hr {
   }
 }
 
+
 @media (max-width: 768px) {
   .header-wrapper {
     gap: 38px;
@@ -986,6 +991,7 @@ hr {
   }
 }
 
+
 @media (max-width: 630px) {
   .subscribe {
     height: 415px;
@@ -1108,6 +1114,7 @@ hr {
     text-align: end;
   }
 }
+
 
 @media (max-width: 440px) {
   .header-wrapper {
